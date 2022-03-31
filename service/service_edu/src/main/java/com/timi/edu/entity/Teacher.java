@@ -1,10 +1,13 @@
 package com.timi.edu.entity;
 
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.util.List;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -28,7 +31,7 @@ public class Teacher implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty(value = "讲师ID")
+    @ApiModelProperty(value = "讲师ID1111111111111")
     @TableId(value = "id", type = IdType.ID_WORKER)
     private String id;
 
@@ -51,6 +54,7 @@ public class Teacher implements Serializable {
     private Integer sort;
 
     @ApiModelProperty(value = "逻辑删除 1（true）已删除， 0（false）未删除")
+    @TableLogic
     private Boolean isDeleted;
 
     @ApiModelProperty(value = "创建时间")
@@ -58,6 +62,8 @@ public class Teacher implements Serializable {
 
     @ApiModelProperty(value = "更新时间")
     private Date gmtModified;
+
+
 
 
 }
