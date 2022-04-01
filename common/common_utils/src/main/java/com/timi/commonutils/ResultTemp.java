@@ -18,7 +18,7 @@ import java.util.Map;
 @Data
 public class ResultTemp {
     @ApiModelProperty(value = "是否成功")
-    private Boolean success;
+    private Boolean state;
 
     @ApiModelProperty(value = "返回码")
     private Integer code;
@@ -32,39 +32,34 @@ public class ResultTemp {
     private ResultTemp() {
     }
 
-    public static ResultTemp ok() {
+    public static ResultTemp success() {
         ResultTemp r = new ResultTemp();
-        r.setSuccess(true);
-        r.setCode(ResultCode.SUCCESS);
-        r.setMessage("成功");
+        r.setState(ResultEnum.SUCCESS.getState());
+        r.setCode(ResultEnum.SUCCESS.getCode());
+        r.setMessage(ResultEnum.SUCCESS.getMessage());
         return r;
     }
 
     public static ResultTemp error() {
         ResultTemp r = new ResultTemp();
-        r.setSuccess(false);
-        r.setCode(ResultCode.ERROR);
-        r.setMessage("失败");
+        r.setState(ResultEnum.FAIL.getState());
+        r.setCode(ResultEnum.FAIL.getCode());
+        r.setMessage(ResultEnum.FAIL.getMessage());
         return r;
     }
 
-    public ResultTemp success(Boolean success) {
-        this.setSuccess(success);
-        return this;
+    public static ResultTemp setReultTemp(ResultEnum resultEnum) {
+        ResultTemp r = new ResultTemp();
+        r.setState(resultEnum.getState());
+        r.setCode(resultEnum.getCode());
+        r.setMessage(resultEnum.getMessage());
+        return r;
     }
 
-    public ResultTemp message(String message) {
-        this.setMessage(message);
-        return this;
-    }
 
-    public ResultTemp code(Integer code) {
-        this.setCode(code);
-        return this;
-    }
 
-    public ResultTemp data(String key, Object value) {
-        this.data.put(key, value);
+    public ResultTemp data(String s, Object value) {
+        this.data.put(s,value);
         return this;
     }
 
@@ -72,5 +67,8 @@ public class ResultTemp {
         this.setData(map);
         return this;
     }
+
+
+
 
 }

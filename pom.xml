@@ -198,6 +198,9 @@
                 <artifactId>canal.client</artifactId>
                 <version>${canal.client.version}</version>
             </dependency>
+
+
+
         </dependencies>
     </dependencyManagement>
 
