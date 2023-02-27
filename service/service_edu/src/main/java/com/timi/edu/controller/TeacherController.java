@@ -8,7 +8,6 @@ import com.timi.commonutils.ResultTemp;
 import com.timi.edu.entity.Teacher;
 import com.timi.edu.entity.vo.TeacherQuery;
 import com.timi.edu.service.TeacherService;
-import com.timi.servicebase.execeptionhandler.MyException;
 import io.swagger.annotations.ApiParam;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -38,9 +37,12 @@ public class TeacherController {
     public ResultTemp findTeacher() {
         List<Teacher> teacherList = teacherService.list(null);
 
+
         Map<String, Object> A = new HashMap<>();
         A.put("teacher", teacherList);
         return ResultTemp.setReultTemp(ResultEnum.SUCCESS).data(A);
+
+
     }
 
     @DeleteMapping("delete")
@@ -69,10 +71,11 @@ public class TeacherController {
     /**
      * Method               pageTeacherCondition
      * Description          方法描述
-     *                      <>
+     * <>
      * Author               Lin
      * Date                 2022/4/1 11:05
      * Version              1.0.0
+     *
      * @param
      * @return com.timi.commonutils.ResultTemp
      */
@@ -144,8 +147,7 @@ public class TeacherController {
     public ResultTemp error() {
 
 
-            int a = 1 / 0;
-
+        int a = 1 / 0;
 
 
         return ResultTemp.success();

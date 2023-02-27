@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7149da-2a36-4ce0-9b2d-350c3eaf0011" name="变更" comment="搭建1">
-      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/timi/commonutils/IpAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/timi/commonutils/LogIpConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/timi/commonutils/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/timi/servicebase/execeptionhandler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/timi/servicebase/execeptionhandler/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/timi/servicebase/handler/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/timi/edu/entity/vo/TeacherQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common_utils/src/main/java/com/timi/commonutils/ResultCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common_utils/src/main/java/com/timi/commonutils/ResultTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/timi/commonutils/ResultTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/timi/edu/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/timi/edu/controller/TeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/timi/edu/entity/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/timi/edu/entity/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,22 +47,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootPM/TiMi" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.17006803" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Lin/IdeaProjects/KS_Erp_OA/timi",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "spring.configuration.checksum": "b9b304fdc5afcdd8846b9890125b0165"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -89,17 +68,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service_edu" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.timi.edu.EduApplication" />
@@ -121,6 +89,23 @@
       <updated>1648728213523</updated>
       <workItem from="1648728216830" duration="11021000" />
       <workItem from="1648790369255" duration="12188000" />
+      <workItem from="1657616229910" duration="477000" />
+      <workItem from="1657673401260" duration="3652000" />
+      <workItem from="1657689855004" duration="1283000" />
+      <workItem from="1657763191532" duration="622000" />
+      <workItem from="1657766758979" duration="19000" />
+      <workItem from="1662732251019" duration="66000" />
+      <workItem from="1666839265600" duration="3983000" />
+      <workItem from="1666920252129" duration="5184000" />
+      <workItem from="1667977491253" duration="666000" />
+      <workItem from="1669606152388" duration="83000" />
+      <workItem from="1673575202636" duration="1633000" />
+      <workItem from="1673947179132" duration="5000" />
+      <workItem from="1675044560738" duration="7202000" />
+      <workItem from="1676516993800" duration="33000" />
+      <workItem from="1676517068833" duration="14000" />
+      <workItem from="1676971683802" duration="51000" />
+      <workItem from="1677461990185" duration="236000" />
     </task>
     <servers />
   </component>
